@@ -1,10 +1,9 @@
 
-# Wes Bryie's Website
-
-My personal website is stored in this repository.
-
-
-
-## Visit
-
-You can visit my website at [https://wesbryie.tech/](https://wesbryie.tech/)
+<h1>Wes Bryie's Site</h1>
+<div>
+<p>
+    Welcome to the git repo for my website.
+</p>
+<p>
+    You can find my website <a href="https://wesbryie.tech/">here!</a>
+</p>
