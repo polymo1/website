@@ -5,8 +5,9 @@
 	 font-size: 16px;
 	 -webkit-font-smoothing: antialiased;
 	 position: absolute;
-	 top: 50%;
-	 left: 50%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
 }
  .content {
 	 position: relative;
