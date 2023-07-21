@@ -1,70 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <!-- Created by Wesley Bryie in 2023, located only at https://wesbryie.tech/ and maybe at a vercel.app subdomain.-->
-      <!-- This website is released under the Unlicense, as per the LICENSE file.-->
-      <!-- The gist of the Unlicense is that this is public domain, and you may do as you please with it.-->
-      <!-- Font is Montserrat provided by Google Fonts.-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./index.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <title>Wes Bryie's Website</title>
-      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-      <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Wes Bryie's Site</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Git Providers
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="https://github.com/wesleybryie/">GitHub</a>
-              <a class="dropdown-item" href="https://gitlab.com/wesleybryie/">GitLab</a>
-             </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg">
-        <br>
-        <h1>
-          Hey! I'm Wes!
-        </h1>
-        <h2>
-          I'm an Early College student and a (ever so slowly) learning developer.
-        </h2>
-        <h3>Things I've done/are doing:</h3>
-          <ul>
-              <li>
-          <h4>
-            Bottle Bills in NC!
-          </h4>
-        <p><b>What is a bottle bill?</b> A bottle bill requires a refundable deposit on bottles and cans which inspires us to recycle these containers in the state of North Carolina. This deposit will be returned to you once you return the bottle or can to a deposit station.</p>
-        <p><b>Who have you contacted?</b> We have mailed 52 Senators and 41 Representatives for the state of North Carolina. As of the beginning of March, we have received a response.</p>
-                  <p><b>What's the next step?</b> We plan to reconsider our plan, and how we could associate this with another bill that is likely to get passed. To do this, we need a bill to pop up.</p>
-        <p><b>How can I help?</b> You can help by filling out our contact form on the project website <a href="https://bottlebill.wesbryie.tech">here.</a></p>
-        <p><b>If you are a Senator or Representative in the State of North Carolina (or can help to connect us to NC congressmen/women, please contact us ASAP!</b></p>
-              </li>
-          </ul>
-      </div>
+<head>
+    <!-- Created by Wesley Bryie in 2023, and should only be viewed at wesbryie.tech. -->
+    <!-- The code for this site is hosted on GitHub, and the site itself is hosted on Vercel. -->
+    <!-- This site is licensed under the GNU GPL3. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wes Bryie's Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="header">
+                Welcome to my site!
+            </h1>
+            <h2 class="subheader">
+                I'm an Early College student and a (ever so slowly) learning developer.
+            </h2>
+            <div class="findme">
+                <h3>You can find me in one of these places:</h3>
+                <ul class="findmelist">
+                    <li>
+                        <a href="https://github.com/wesleybryie">GitHub</a>
+                    </li>
+                    <li>
+                        Discord: @kryptochaos
+                    </li>
+                    <li>
+                        Email: wes@wesbryie.tech
+                    </li>
+                </ul>
+            </div>
+            <div class="projects">
+                <h3>Current Projects:</h3>
+                <ul class="projectslist">
+                <li><a href="https://bottlebill.wesbryie.tech/">North Carolina Bottle Bill Project</a></li>
+                    <ul>
+                        <li>Getting bottle deposit stations in North Carolina.</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-        
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
-
