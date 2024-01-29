@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/wesleybryie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wesbryie.com
+  * I am wesleybryie (https://keybase.io/wesleybryie) on keybase.
+  * I have a public key ASD5j_Ho6pVBJ-LHdwpt_GzwReUwCXe1HqDu163behCSggo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f98ff1e8ea954127e2c7770a6dfc6cf045e5300977b51ea0eed7addb7a1092820a",
+      "host": "keybase.io",
+      "kid": "0120f98ff1e8ea954127e2c7770a6dfc6cf045e5300977b51ea0eed7addb7a1092820a",
+      "uid": "054d87cec1fafa98ed668dae1b545d19",
+      "username": "wesleybryie"
+    },
+    "merkle_root": {
+      "ctime": 1706033535,
+      "hash": "346bf4e1fbc2e01e5616b2895e87b4ad2ce738c02162446cb3b30fa1c749fea16994b592da1a740fb28979409a06832e20e7eb7ae870c3bea0d33f61d4013e05",
+      "hash_meta": "e7250ed991c1f6b453e2467bc7fb25a0358eb2fa665679776f2df7094afc846b",
+      "seqno": 25388333
+    },
+    "service": {
+      "entropy": "dlyBsFJ4WRaMl1tfDaZlorkz",
+      "hostname": "wesbryie.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.4"
+  },
+  "ctime": 1706033597,
+  "expire_in": 504576000,
+  "prev": "3bf5cb2949fd587040b1f6c1c4346657eec15d36a14e262602fe4ca8cc12eef9",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+Y/x6OqVQSfix3cKbfxs8EXlMAl3tR6g7tet23oQkoIKp3BheWxvYWTESpcCBcQgO/XLKUn9WHBAsfbBxDRmV+7BXTahTiYmAv5MqMwS7vnEINxmBYBtot4OzokjGNuq2PWKoVZ39P9itzYgcqDcYkV+AgHCo3NpZ8RAWZwJBuoRjGcmUPVC/YMRfVimbNWFgEOwZPVXmEvVPvhPnB+Xy///bKeffN75z1hebwQiTeZtOoc+dQnJ+OZzDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBPdwS9xx1VPR+ph30wjnHfkbMojY4LStV9ZbzDsvW73o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wesleybryie
+
+==================================================================
