@@ -1,9 +1,8 @@
 # **Wes Bryie's Website**
 
-This is the GitHub repository for my website hosted at [wesbryie.tech](https://wesbryie.tech/)
+![GitHub License][def]
 
-## **License**
+This is the GitHub repository for my website hosted at [wesbryie.com](https://wesbryie.com/)
 
-This website is licensed under the [GNU GPL3 Licence][gpl3].
 
-[gpl3]: /LICENSE
+[def]: https://img.shields.io/github/license/wesleybryie/website?style=for-the-badge
