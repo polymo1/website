@@ -27,14 +27,17 @@
         <!-- Open Graph End -->
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
             * {
                 font-family: "Quicksand", sans-serif;
                 color: white;
                 background-color: #2c3333;
             }
 
+            /* I removed scrolling for PC */
             body {
-                overflow: auto;
+                overflow: hidden; 
+                margin: 0;
             }
 
             .container {
@@ -43,6 +46,18 @@
                 align-items: center;
                 justify-content: center;
                 height: 100vh;
+            }
+
+            /* this is to fix any build related issues on a mobile device */
+            @media (max-width: 768px) {
+                body {
+                    overflow: auto; 
+                }
+
+                .container {
+                    padding: 20px;
+                    height: auto; 
+                }
             }
         </style>
     </head>
@@ -135,4 +150,5 @@
             </div>
         </div>
     </body>
+</html>
 </html>
