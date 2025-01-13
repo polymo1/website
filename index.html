@@ -27,6 +27,7 @@
         <!-- Open Graph End -->
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
             * {
                 font-family: "Quicksand", sans-serif;
                 color: white;
@@ -34,7 +35,8 @@
             }
 
             body {
-                overflow: auto;
+                overflow: hidden; 
+                margin: 0;
             }
 
             .container {
@@ -43,6 +45,17 @@
                 align-items: center;
                 justify-content: center;
                 height: 100vh;
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    overflow: auto; 
+                }
+
+                .container {
+                    padding: 20px;
+                    height: auto; 
+                }
             }
         </style>
     </head>
